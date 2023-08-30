@@ -1,5 +1,6 @@
 import './App.css';
-import Header from './Header';
+import Header from './components/Header';
+import TabsComponent from './components/TabsComponent';
 function App() {
   const handleAddURLClick = () => {
     // Handle Add URL button click logic here
@@ -10,7 +11,7 @@ function App() {
   };
   return (
     <div className="container" >
-      <Header onAddURLClick={handleAddURLClick} onConvertClick={handleConvertClick} />
+        <TabsComponent />
     </div>
   );
 }
