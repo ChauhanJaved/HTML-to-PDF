@@ -1,11 +1,11 @@
 import React from "react";
-import "./Header.css";
+import "../styles/Header.css";
 
 export default function Header(props) {
   return (
     <div className="header">
       <button className="btn btn-primary" onClick={props.onAddURLClick}>
-        Add URL
+        Convert
       </button>
       <button className="btn btn-primary" onClick={props.onConvertClick}>
         Convert
